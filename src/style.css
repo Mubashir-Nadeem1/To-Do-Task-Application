@@ -1,11 +1,11 @@
 :root {
   color-scheme: dark;
-  --panel: rgba(15, 23, 42, 0.56);
+  --panel: rgba(15, 23, 42, 0.78);
   --panel-strong: rgba(15, 23, 42, 0.74);
-  --surface: rgba(255, 255, 255, 0.11);
-  --surface-strong: rgba(255, 255, 255, 0.18);
-  --stroke: rgba(255, 255, 255, 0.24);
-  --stroke-strong: rgba(255, 255, 255, 0.38);
+  --surface: rgba(255, 255, 255, 0.18);
+  --surface-strong: rgba(255, 255, 255, 0.26);
+  --stroke: rgba(255, 255, 255, 0.32);
+  --stroke-strong: rgba(255, 255, 255, 0.46);
   --text: #f8fafc;
   --muted: #cbd5e1;
   --soft: #e0f2fe;
@@ -97,7 +97,7 @@ button:disabled {
   border: 1px solid var(--stroke);
   border-radius: 24px;
   background:
-    linear-gradient(145deg, rgba(255, 255, 255, 0.18), rgba(255, 255, 255, 0.08)),
+    linear-gradient(145deg, rgba(255, 255, 255, 0.22), rgba(255, 255, 255, 0.12)),
     var(--panel);
   box-shadow: 0 30px 90px rgba(2, 6, 23, 0.46);
   backdrop-filter: blur(26px);
